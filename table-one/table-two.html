@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблица Забавниковы</title>
+  </head>
+  <body>
+    <style>
+      table {
+        border-collapse: collapse;
+        background-color: pink;
+      }
+      body {
+        background-color: sandybrown;
+      }
+    </style>
+    <table border="1" align="center" cellpadding="10" width="740" height="900">
+      <caption>
+        Регистрация
+      </caption>
+      <form action="">
+        <tr>
+          <td><label for="surname">Фамилия</label></td>
+          <td><input type="text" id="surname" /></td>
+        </tr>
+        <tr>
+          <td><label for="name">Имя</label></td>
+          <td><input type="text" id="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="patronamic">Отчество</label></td>
+          <td><input type="text" id="patronamic" /></td>
+        </tr>
+        <tr>
+          <td>Фото</td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <td><label for="email-field">E-mail</label></td>
+          <td><input type="email" id="email-field" /></td>
+        </tr>
+        <tr>
+          <td><label for="site">Адрес сайта:</label></td>
+          <td><input type="url" id="site" value="http://" /></td>
+        </tr>
+        <tr>
+          <td rowspan="2">Пол:</td>
+          <td><input type="radio" value="M" name="sex" /> М</td>
+        </tr>
+        <tr>
+          <td><input type="radio" value="Ж" name="sex" /> Ж</td>
+        </tr>
+        <tr>
+          <td>Дата рождения</td>
+          <td>
+            <select name="multiple" size="1" w>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+            </select>
+            <select name="multiple" size="1">
+              <option value="january">Январь</option>
+              <option value="feb">Февраль</option>
+              <option value="march">Март</option>
+              <option value="april">Апрель</option>
+              <option value="may">Май</option>
+              <option value="june">Июнь</option>
+              <option value="july">Июль</option>
+              <option value="august">Август</option>
+              <option value="sep">Сентябрь</option>
+              <option value="oct">Октябрь</option>
+              <option value="november">Ноябрь</option>
+              <option value="dec">Декабрь</option>
+            </select>
+            <select name="years">
+              <option value="1997">1997</option>
+              <option value="1998">1998</option>
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4">Какую операционную систему вы предпочитаете</td>
+          <td>
+            <input type="checkbox" name="os" value="winda" /> Windows Mobile
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" name="os" value="android" />Android</td>
+        </tr>
+
+        <tr>
+          <td><input type="radio" name="os" value="ios" />Ios</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="os" value="symb" /> Symbain</td>
+        </tr>
+        <tr>
+          <td><label for="about">О себе</label></td>
+          <td><textarea id="about" cols="33" rows="6"></textarea></td>
+        </tr>
+        <tr>
+          <td align="center">
+            <input type="submit" value="Отправить форму" />
+          </td>
+          <td align="center"><input type="reset" value="Сбросить форму" /></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>

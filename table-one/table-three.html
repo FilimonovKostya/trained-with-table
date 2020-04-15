@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблица Валько</title>
+  </head>
+  <body>
+    <style>
+      label:hover {
+        border: 1px dashed green;
+      }
+    </style>
+    <form>
+      <table align="center">
+        <caption>
+          <h1>Регистрация</h1>
+        </caption>
+        <tr>
+          <td>
+            <legend><label for="name"> Имя </label></legend>
+            <input type="text" id="name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <legend><label for="surname"> Фамилия </label></legend>
+            <input type="text" id="surname" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <legend><label for="pat"> Отчество </label></legend>
+            <input type="text" id="pat" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Фото <br />
+            <input type="file" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="emaila">Email:</label><br />
+            <input type="email" id="emaila" name="email" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              >Пароль <br />
+              <input type="password"
+            /></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              >Адрес сайта <br />
+              <input type="url" name="url" required />
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label
+              >Пол <br />
+              <input type="radio" name="sex" value="m" /> Мужчина <br />
+              <input type="radio" name="sex" value="g" /> Женщина
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Дата рождения <br />
+            <input type="date" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Блюда какой кухни вы предпочитаете ? <br />
+            <input type="checkbox" value="eu" name="eat" id="eua" />
+            <label for="eua">Европейская</label> <br />
+            <input type="checkbox" value="ch" name="eat" /> Китайская <br />
+            <input type="checkbox" value="ta" name="eat" /> Тайская <br />
+            <input type="checkbox" value="kz" name="eat" /> Кавказская <br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>
+              О себе в произвольной форме <br />
+              <textarea cols="40" rows="2"></textarea>
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" />
+            <input type="reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

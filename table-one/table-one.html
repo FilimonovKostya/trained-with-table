@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table-one</title>
+  </head>
+  <body>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+    <table border="3" cellpadding="10" align="center" >
+      <form action="">
+        <caption>
+        Форма регистрации
+      </caption>
+      <tr>
+        
+          <td> <label for="surname">  Фамилия </label></td>
+          <td><input type="text" id="surname" size="30" /></td>
+        </label>
+      </tr>
+      <tr>
+          <td><label for="name">Имя</label></td>
+          <td><input type="text" id="name" size="30"></td>
+      </tr>
+      <tr>
+          <td><label for="patronymic">Отчество
+          </label></td>
+          <td><input type="text" id="patronymic" size="30"></td>
+      </tr>
+      <tr>
+          <td>
+              <label for="photo">Добавьте фотографию</label>
+          </td>
+          <td><input type="file" id="photo" ></td>
+      </tr>
+      <tr>
+      <td><label for="email-adress">Адес эектронной поты</label></td>
+      <td><input type="email" id="email-adress" size="30"></td>
+    </tr>
+    <tr>
+        <td><label for="phone">Телефон</label></td>
+        <td><input type="tel" id="phone" size="30"></td>
+    </tr>
+    <tr>
+        <td><label for="password-field">Пароль</label></td>
+        <td><input type="password" id="password-field" size="30"></td>
+
+    </tr>
+    <tr>
+        <td><label for="site">Адресс сайта</label></td>
+        <td><input type="url" id="site" value="http://" size="30"></td>
+    </tr>
+    <tr>
+        <td>Пол</td>
+        <td><p> <input type="radio" value="male" name="sex"> Парень <br>
+         <input type="radio" value="female" name="sex"> Девушка </p>
+        
+    </tr>
+    <tr>
+        <td>Дата рождения</td>
+        <td><input type="date" ></td>
+    </tr>
+    <tr>
+        <td>Какой язык программирования нравится </td>
+        <td>
+        <input type="checkbox" name="favorite"> Python <br>
+        <input type="checkbox" name="favorite"> JavaScript <br>
+        <input type="checkbox" name="favorite"> Ruby <br>
+        <input type="checkbox" name="favorite"> C# <br>
+        <input type="checkbox" name="favorite"> Java <br>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="inf">Дополнительная Информация</label></td>
+        <td><textarea  id="inf" cols="30" rows="5" ></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><input type="submit" value="Зарегестрироваться">
+        <input type="reset" value="Очистить Форму">
+        </td>
+    </tr>
+    </form>
+</table> <br><br><br>
+<table border="2" align="center" >
+<tr>
+    <td width="300" height="200" rowspan="3"></td>
+    <td width="300" height="200"></td>
+    <td width="300" height="200"></td>
+</tr>
+<tr>
+                <td width="300" height="200" colspan="2"></td>
+    
+</tr>
+<tr>
+            <td width="300" height="200"></td>
+    <td width="300" height="200"></td>
+</tr>
+</table><br><br>
+
+<table border="2" align="center" >
+ <tr>
+<td width="550" height="150"></td>
+<td width="250" height="150"></td>
+ </tr>
+<tr>
+        <td width="250" height="150"></td>
+        <td  rowspan="2" width="300"><table border="2" >
+        </tr> 
+        
+        <tr>    
+        <td width="150" height="50" ></td>
+        <td width="150" height="50" ></td>
+        <td width="150" height="50" rowspan="2"></td>
+        </tr>
+        
+        <tr>
+        <td width="150" height="50" rowspan="2" ></td>
+        <td width="150" height="50"  ></td>
+        
+
+        </tr>
+
+         <tr>
+            <td width="150" height="50"></td>
+            <td width="150" height="50"></td>
+        </tr>
+        </table></td>
+</tr>
+<tr>
+    <td width="250" height="150"></td>
+   
+</tr>
+
+</table>
+
+</body>
+</html>
